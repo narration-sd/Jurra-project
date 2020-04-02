@@ -121,7 +121,7 @@
             title: "Medical Shields for 3d Printing",
             name: "medical-shields-for-3d-printing",
             nameWithOwner: "CombatCovid/medical-shields-for-3d-printing",
-            description: "",
+            description: "The materials required to manufacture one unit are less than $1",
             cardImage: "/docs/img/Capture-design.JPG",
             thumbImage: null,
             keywords: "medical personnel doctor nurse protection hospital ambulance"
@@ -131,7 +131,7 @@
             title: "MIT Emergency Ventilator",
             name: "mit-emergency-ventilator",
             nameWithOwner: "CombatCovid/mit-emergency-ventilator",
-            description: "",
+            description: "A low-cost ventilator, based on the collective wisdom of many clinicians",
             cardImage: "/docs/img/Electrical-System-Architecture-2.jpg",
             thumbImage: null,
             keywords: "patient recovery critical care equipment emergency helper treatment"
