@@ -77,42 +77,64 @@
         const appId = process.env.GRIDSOME_ALGO_APPLICATION_ID
         const adminKey = process.env.GRIDSOME_ALGO_ADMIN_KEY
         const indexName = process.env.GRIDSOME_ALGO_SEARCH_INDEX
+
         // console.log('algoIndex appId: ' + appId + ', type: ' + typeof appId)
         // console.log('algoIndex adminKey: ' + adminKey + ', type: ' + typeof adminKey)
-        console.log('algoIndex index: ' + process.env.GRIDSOME_ALGO_SEARCH_INDEX)
+        // console.log('algoIndex index: ' + process.env.GRIDSOME_ALGO_SEARCH_INDEX)
+
         const client = algoliasearch(appId, adminKey);
         const index = client.initIndex(indexName);
 
         const objects = [
           {
             objectID: 1,
-            name: "Foo",
+            title: "SPA Website",
             path: "",
             keywords: ""
           },
           {
             objectID: 2,
-            name: "Combat with Hardware",
+            title: "simple-covid-repos-search",
             path: "",
             keywords: ""
           },
           {
             objectID: 3,
-            name: "combat with hardware",
+            title: "backend-hardware-designs-registry",
+            path: "",
+            keywords: ""
+          },
+          {
+            objectID: 3,
+            title: "backend-hardware-designs-registry",
             path: "",
             keywords: ""
           },
           {
             objectID: 4,
-            name: "Medical Shields for 3d Printing",
-            path: "medical-shields-for-3d-printing",
-            keywords: "medical personnel doctor nurse protection hospital ambulance"
+            title: "doc-template",
+            path: "",
+            keywords: ""
           },
           {
             objectID: 5,
-            name: "MIT Emergency Ventilator",
-            path: "mit-emergency-ventilator",
-            keywords: "patient recovery equipment helper treatment"
+            title: "Medical Shields for 3d Printing",
+            name: "medical-shields-for-3d-printing",
+            nameWithOwner: "medical-shields-for-3d-printing",
+            description: "",
+            cardImage: "/docs/img/Capture-design.JPG",
+            thumbImage: null,
+            keywords: "medical personnel doctor nurse protection hospital ambulance"
+          },
+          {
+            objectID: 6,
+            title: "MIT Emergency Ventilator",
+            name: "mit-emergency-ventilator",
+            nameWithOwner: "medical-shields-for-3d-printing",
+            description: "",
+            cardImage: "/docs/img/Electrical-System-Architecture-2.jpg",
+            thumbImage: null,
+            keywords: "patient recovery critical care equipment emergency helper treatment"
           }
         ]
 
