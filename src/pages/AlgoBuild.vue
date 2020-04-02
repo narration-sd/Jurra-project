@@ -124,7 +124,7 @@
             description: "The materials required to manufacture one unit are less than $1",
             cardImage: "/docs/img/Capture-design.JPG",
             thumbImage: null,
-            keywords: "medical personnel doctor nurse protection hospital ambulance"
+            keywords: "medical personnel doctor nurse protection hospital ambulance emt uniform safety"
           },
           {
             objectID: 6,
@@ -134,7 +134,7 @@
             description: "A low-cost ventilator, based on the collective wisdom of many clinicians",
             cardImage: "/docs/img/Electrical-System-Architecture-2.jpg",
             thumbImage: null,
-            keywords: "patient recovery critical care equipment emergency helper treatment"
+            keywords: "patient recovery critical care equipment emergency helper treatment hospital room"
           }
         ]
 
