@@ -130,7 +130,7 @@
             objectID: 6,
             title: "MIT Emergency Ventilator",
             name: "mit-emergency-ventilator",
-            nameWithOwner: "CombatCovid/medical-shields-for-3d-printing",
+            nameWithOwner: "CombatCovid/mit-emergency-ventilator",
             description: "",
             cardImage: "/docs/img/Electrical-System-Architecture-2.jpg",
             thumbImage: null,
