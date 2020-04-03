@@ -122,6 +122,7 @@
             name: "medical-shields-for-3d-printing",
             nameWithOwner: "CombatCovid/medical-shields-for-3d-printing",
             description: "The materials required to manufacture one unit are less than $1",
+            cardSummary: "/docs/01-Getting Started.md",
             cardImage: "/docs/img/Capture-design.JPG",
             thumbImage: null,
             keywords: "medical personnel doctor nurse protection hospital ambulance emt uniform safety"
@@ -132,9 +133,21 @@
             name: "mit-emergency-ventilator",
             nameWithOwner: "CombatCovid/mit-emergency-ventilator",
             description: "A low-cost ventilator, based on the collective wisdom of many clinicians",
+            cardSummary: "/docs/01-Getting Started.md",
             cardImage: "/docs/img/Electrical-System-Architecture-2.jpg",
             thumbImage: null,
-            keywords: "patient recovery critical care equipment emergency helper treatment hospital room"
+            keywords: "patient recovery critical intensive care equipment emergency helper treatment hospital operating room"
+          },
+          {
+            objectID: 7,
+            title: "TU Delft Scuba Mask for Covid19",
+            name: "TU-Delft-Scuba-Mask-covid-19",
+            nameWithOwner: "CombatCovid/TU-Delft-Scuba-Mask-covid-19",
+            description: "A reusable full face mask, for medical staff in operating rooms and intensive care",
+            cardSummary: "/Readme.md",
+            cardImage: "/cpap_600.jpg",
+            thumbImage: null,
+            keywords: "patient recovery critical intensive care equipment emergency helper treatment hospital operating room"
           }
         ]
 
@@ -175,7 +188,7 @@
           })
 
         index
-          .search("Hardw")
+          .search("hosp")
           .then(({ hits }) => {
             console.log('rdw hits: ' + JSON.stringify(hits))
           })
